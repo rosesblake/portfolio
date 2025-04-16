@@ -45,7 +45,7 @@ function Projects() {
           performance-focused projects I’ve built with love.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center place-items-center">
           {projects.map(
             ({ name, link, github, description, image, stack }, i) => (
               <motion.a
