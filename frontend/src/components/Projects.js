@@ -8,7 +8,7 @@ function Projects() {
   const projects = [
     {
       name: "NextSet",
-      link: "https://nextset-demo.onrender.com",
+      link: "https://www.next-set.com",
       github: "https://github.com/rosesblake/nextset",
       description: "Full-stack booking app for artists and venues.",
       stack: ["React", "Node", "Express", "Prisma", "Tailwind", "SQL"],
@@ -44,7 +44,6 @@ function Projects() {
           A curated selection of full-stack apps, creative tools, and
           performance-focused projects I’ve built with love.
         </p>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center place-items-center">
           {projects.map(
             ({ name, link, github, description, image, stack }, i) => (
@@ -101,6 +100,17 @@ function Projects() {
             )
           )}
         </div>
+        <p className="text-sm text-gray-400 mt-8">
+          More projects on{" "}
+          <a
+            href="https://github.com/rosesblake"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 underline hover:text-white transition"
+          >
+            GitHub ↗
+          </a>
+        </p>
       </motion.div>
     </section>
   );
