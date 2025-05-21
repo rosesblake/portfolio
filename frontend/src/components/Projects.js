@@ -15,6 +15,14 @@ function Projects() {
       image: "/images/NextSet.png",
     },
     {
+      name: "Wallet App",
+      link: "https://wallet-app-64c1.onrender.com/",
+      github: "https://github.com/rosesblake/walletApp",
+      description: "Stripe-enabled wallet with auth and transaction history.",
+      stack: ["React", "Node", "Express", "Tailwind", "MySQL"],
+      image: "/images/NextSet.png",
+    },
+    {
       name: "PicklePal",
       link: "https://picklepal.onrender.com",
       github: "https://github.com/rosesblake/picklePal-app",
