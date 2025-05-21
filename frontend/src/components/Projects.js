@@ -20,7 +20,7 @@ function Projects() {
       github: "https://github.com/rosesblake/walletApp",
       description: "Stripe-enabled wallet with auth and transaction history.",
       stack: ["React", "Node", "Express", "Tailwind", "MySQL"],
-      image: "/images/NextSet.png",
+      image: "/images/WalletApp.png",
     },
     {
       name: "PicklePal",
